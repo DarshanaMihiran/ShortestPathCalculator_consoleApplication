@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstrasAlgorithm", "DijkstrasAlgorithm.csproj", "{E429E27E-6009-43D0-B304-C2886804A182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstrasAlgorithm.Models", "..\DijkstrasAlgorithm.Models\DijkstrasAlgorithm.Models.csproj", "{00D3FB8F-50A5-439B-AC70-D99D6B9BD9FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstrasAlgorithm.Repositories", "..\DijkstrasAlgorithm.Repositories\DijkstrasAlgorithm.Repositories.csproj", "{2311295A-D165-4417-A185-55D9B427BEEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstrasAlgorithm.Services", "..\DijkstrasAlgorithm.Services\DijkstrasAlgorithm.Services.csproj", "{630B6CE4-2BFA-4F87-BE68-7E3153A3EACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstrasAlgorithm.Tests", "..\DijkstrasAlgorithm.Tests\DijkstrasAlgorithm.Tests.csproj", "{5674B0E7-10CF-4F3C-9562-7237DBDAD83B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E429E27E-6009-43D0-B304-C2886804A182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E429E27E-6009-43D0-B304-C2886804A182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E429E27E-6009-43D0-B304-C2886804A182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E429E27E-6009-43D0-B304-C2886804A182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D3FB8F-50A5-439B-AC70-D99D6B9BD9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D3FB8F-50A5-439B-AC70-D99D6B9BD9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D3FB8F-50A5-439B-AC70-D99D6B9BD9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D3FB8F-50A5-439B-AC70-D99D6B9BD9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2311295A-D165-4417-A185-55D9B427BEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2311295A-D165-4417-A185-55D9B427BEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2311295A-D165-4417-A185-55D9B427BEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2311295A-D165-4417-A185-55D9B427BEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630B6CE4-2BFA-4F87-BE68-7E3153A3EACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630B6CE4-2BFA-4F87-BE68-7E3153A3EACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630B6CE4-2BFA-4F87-BE68-7E3153A3EACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630B6CE4-2BFA-4F87-BE68-7E3153A3EACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5674B0E7-10CF-4F3C-9562-7237DBDAD83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5674B0E7-10CF-4F3C-9562-7237DBDAD83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5674B0E7-10CF-4F3C-9562-7237DBDAD83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5674B0E7-10CF-4F3C-9562-7237DBDAD83B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6ABFEAE-BD28-4235-905E-AE4F5D7D10DF}
+	EndGlobalSection
+EndGlobal
